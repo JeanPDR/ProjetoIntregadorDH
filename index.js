@@ -5,14 +5,13 @@ const app = express();
 
 const usuario = {
     nome: "Jean",
-    sobrenome: "Reis",
-    idade: "23",
-    altura: "1.68",
-    id: "001"
+    sobrenome: "Reis"
 };
 
-app.post('/usuario', (request,response) => {
-    response.json({usuario})
+app.post('/usuarios', (request,response) => {
+    console.log(request);
+
+    
 });
 
 app.get('/usuarios', (request, response)=> {
