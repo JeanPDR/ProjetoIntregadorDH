@@ -12,7 +12,8 @@
 :root{
     --bg-direito:#D9DCF2;
     --letra-input:#FFFF;
-    --letra-destaque:black
+    --letra-destaque:black;
+    --cinza:#C4C4C4;
 
 }
 
@@ -31,13 +32,13 @@ main{
 
 #linha-horizontal-esquerda{
     width: 300px;
-    border: 1px solid #000;
+    border: 1px solid var(--letra-destaque);
     height: 0px;
 }
 
 #linha-horizontal-direita{
     width: 300px;
-    border: 1px solid #000;
+    border: 1px solid var(--letra-destaque);
     height: 0px;
 }
 
@@ -52,8 +53,8 @@ main{
     width: 583px;
     height: 67px;
 
-    background: #FFFFFF;
-    border: 1px solid #C4C4C4;
+    background: var(--letra-input);
+    border: 1px solid var(--cinza);
     box-sizing: border-box;
     border-radius: 50px;
 }

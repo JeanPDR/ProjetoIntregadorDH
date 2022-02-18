@@ -19,7 +19,7 @@ aside{
 
 .texto-cima-bg-direita, .texto-baixo-bg-direita{
     font-size: 26px;
-    color: #FFFFFF;
+    color: var(--letra-input);
 }
 
 .texto-cima-bg-direita{
