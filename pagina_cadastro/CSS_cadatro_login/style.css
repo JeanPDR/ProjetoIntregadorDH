@@ -14,6 +14,7 @@
     --letra-input:#FFFF;
     --letra-destaque:black;
     --cinza:#C4C4C4;
+    --input-submit:#DBDBF8
 
 }
 
@@ -23,22 +24,28 @@ body{
     position: fixed;
 }
 
-main{
-    width: 100vw;
-    height: 100vh;
-    background-color: blue;
+form{
+    display: flex;
+    justify-content: center;
     
 }
 
+main{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+
 #linha-horizontal-esquerda{
-    width: 300px;
-    border: 1px solid var(--letra-destaque);
+    width: 147px;
+    border: 1px solid rgba(173, 171, 182, 1);
     height: 0px;
 }
 
 #linha-horizontal-direita{
-    width: 300px;
-    border: 1px solid var(--letra-destaque);
+    width: 147px;
+    border: 1px solid rgba(173, 171, 182, 1);
     height: 0px;
 }
 
@@ -47,6 +54,7 @@ main{
 .titulo-from{
     display: flex;
     align-items: center;
+    margin-left: 37px;
 }
 
 .caixa-input{
@@ -57,4 +65,14 @@ main{
     border: 1px solid var(--cinza);
     box-sizing: border-box;
     border-radius: 50px;
+}
+
+.submit{
+    width: 583px;
+    height: 66px;
+    background: var(--input-submit);
+    border-radius: 50px;
+    border: 0;
+    
+
 }
